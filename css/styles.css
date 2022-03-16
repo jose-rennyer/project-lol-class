@@ -207,6 +207,9 @@
     font-weight:bold;
     cursor:pointer;
 }
+.selected{
+    border-bottom:3px solid #f00
+}
 .st .s-details img{
 
     object-fit:cover;
