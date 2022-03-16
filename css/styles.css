@@ -1,0 +1,239 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.title{
+    text-align:center;
+    margin-bottom:15px;
+}
+.area-personagens{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    max-width:1140px;
+}
+.rotas{
+    display:flex;
+}
+.route{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    background-color:blue;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:25px;
+    padding:7px 0px;
+    cursor:pointer;
+    border-radius:7px;
+    color:#fff;
+    text-shadow:1px 2px 5px #000;
+    box-shadow:1px 2px 5px #000;
+}
+.gray{
+    background-color:gray;
+}
+.green{
+    background-color:#0f0;
+}
+.blue{
+    background-color:rgba(42, 56, 250, 0.945)
+}
+.orange{
+    background-color:orangered
+}
+.red{
+    background-color:red;
+}
+.grid-classes{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    grid-template-columns:repeat(4, 285px);
+    gap:20px;
+    text-align:center;
+}
+.grid-classes a{
+    cursor:pointer;
+}
+.personagens-exemplo{
+    display:none;
+}
+.person-item{
+    box-shadow:1px 2px 5px #000;
+}
+.person-item a{
+    text-decoration:none;
+}
+.person-item--name{
+    padding:5px 0px;
+}
+.person-item--name span{
+    font-size:23px;
+}
+.person-item--quality{
+    font-size:22px;
+    text-align:center;
+    background-color:goldenrod;
+    color:#000;
+    text-shadow:1px 2px 5px #fff;
+}
+.person-item--img{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.person-item--img img{
+    max-width:250px;
+    height:auto;
+    box-shadow:1px 2px 7px #000;
+}
+.modal{
+    width:100vw;
+    height:100vh;
+    background-color:rgba(000, 000, 000, 0.4);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    transition:all ease 0.5s
+}
+.person-modal{
+    width:90%;
+    height:90%;
+    background-color:white;
+    display:flex;
+}
+.person-modal--right{
+    flex:1;
+    height:100%;
+    background-color:red;
+}
+.person-modal--left{
+    flex:1;
+    background-color:blue;
+    display:flex;
+    flex-direction:column;
+}
+.person-modal--name{
+    font-size:25px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#0f0;
+    padding:10px;
+}
+.person-nacionality{
+    display:flex;
+    align-items:center;
+}
+.person-nacionality img{
+    border-radius:50%;
+    border:2px solid gold;
+    background-color:black;
+    transition:all ease 0.5s;
+    width:70px;
+    height:90px;
+    cursor:pointer;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.person-modal--right img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position:right;
+}
+
+.person-nacionality img:hover{
+    transform:scale(2, 2);
+}
+.person-modal-resum{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex:0.4;
+    padding:5px;
+    overflow-y:scroll;
+}
+.golden-bar{
+    background-color:goldenrod;
+    box-shadow:0px 1px 5px #000;
+    height:4px;
+}
+.person-modal-resum h3{
+    margin:8px 0px;
+}
+.person-modal-resum .resum{
+    font-size:18px;
+    height:100%;
+}
+.forte-e-fraco{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-top:2px;
+}
+.forte-e-fraco .dif{
+    display:flex;
+    height:100%;
+}
+.st{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-wrap:wrap;
+    height:auto;
+}
+.st .s-details{
+    min-width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.close{
+    color:red;
+    font-weight:bold;
+    cursor:pointer;
+}
+.st .s-details img{
+
+    object-fit:cover;
+    object-position:right;
+    border:1px solid goldenrod
+}
+.s-details span{
+    font-size:18px;
+    margin-top:4px;
+}
+.strong{
+    background-color:green;
+    flex:1;
+    height:100%;
+}
+.strong h4{
+    text-align:center;
+}
+.weak{
+    background-color:blue;
+    flex:1;
+    height:100%;
+}
+.img-peq{
+    width:150px;
+    height:80px
+}
+
+
+
