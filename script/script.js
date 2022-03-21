@@ -19,8 +19,9 @@ function criarLista(num){
                 document.querySelector(".modal").style.opacity = "1"
             },200)
     
+            document.querySelector(".person-modal--right .lol-icon a").setAttribute("href","https://universe.leagueoflegends.com/pt_BR/story/champion/"+identifier.link)
             document.querySelector(".person-name span:last-child").innerHTML = identifier.nome// ou item.nome
-            document.querySelector(".person-modal--right img").src = identifier.imagem//ou item.imagem
+            document.querySelector(".person-modal--right .person").src = identifier.imagem//ou item.imagem
             //document.querySelector(".person-modal-resum .resum").innerHTML = classes[0].campeoes[data].historia//ou item.historia
             document.querySelector(".person-nacionality img").src = item.nacionalidade[0].icone
             document.querySelector(".person-nacionality span").innerHTML = item.nacionalidade[0].nacao
