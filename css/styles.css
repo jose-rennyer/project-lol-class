@@ -260,6 +260,19 @@
     position:absolute;
 }
 
+footer{
+    margin-top:30px;
+    background-color:#555;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    height:100px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
 @media(max-width:750px){
     .person-modal{
         flex-direction:column;
