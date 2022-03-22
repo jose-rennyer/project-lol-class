@@ -107,8 +107,8 @@
     transition:all ease 0.5s
 }
 .person-modal{
-    width:90%;
-    height:90%;
+    width:95%;
+    height:95%;
     background-color:white;
     display:flex;
 }
@@ -281,7 +281,7 @@ footer{
         height:280px;
     }
     .st .s-details{
-        min-width:auto;
+        min-width:50%;
         margin:2px;
     }
     .img-peq{
@@ -302,6 +302,28 @@ footer{
     }
     .person-modal--name{
         font-size:14px;
+    }
+    .s-details span{
+        font-size:14px;
+    }
+    .st .s-details{
+        min-width:100%;
+    }
+}
+@media(min-height:950px) and (max-width:1100px){
+    .person-modal{
+        flex-direction:column;
+    }
+    .st .s-details{
+        min-width:50%;
+    }
+}
+@media(min-height:1101px){
+    .person-modal{
+        flex-direction:column;
+    }
+    .st .s-details{
+        min-width:100%;
     }
 }
 
