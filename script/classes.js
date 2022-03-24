@@ -203,7 +203,7 @@ let classes = [
             ,nacionalidade:[{icone:"champion/nacionality/ionia.png", nacao:"Ionia"}]
             },
             
-            {nome:"Viktor", imagem:"champion/viktor.jpg", qualidade:"Mago", link:"Viktor",
+            {nome:"Viktor", imagem:"champion/Viktor.jpg", qualidade:"Mago", link:"Viktor",
             forte:[{foto:"champion/Corki.jpg", nome:"Corki"}, {foto:"champion/Yasuo.jpg", nome:"Yasuo"}, {foto:"champion/Vex.jpg", nome:"Vex"}, {foto:"champion/Kaisa.jpg", nome:"Kaisa"}], 
             fraco:[{foto:"champion/Zilean.jpg", nome:"Zilean"},{foto:"champion/Talon.jpg", nome:"Talon"},{foto:"champion/Ahri.jpg", nome:"Ahri"},{foto:"champion/Karma.jpg", nome:"Karma"}]
             ,nacionalidade:[{icone:"champion/nacionality/zaun.png", nacao:"Zaun"}]
